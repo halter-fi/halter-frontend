@@ -1,0 +1,29 @@
+{
+  "name": "Halter",
+  "timestamp": "2021-10-11T00:00:00.000Z",
+  "logoURI": "https://raw.githubusercontent.com/balancer-labs/pebbles/master/images/pebbles-pad.256w.png",
+  "keywords": ["balancer", "listed"],
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  },
+  "tokens": [
+    {
+      "address": "0x4744644f981107f3121615c9B96E5AA4baec5BC3",
+      "chainId": 4002,
+      "name": "USDC",
+      "symbol": "USDC",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x514910771AF9Ca656af840dff83E8264EcF986CA/logo.png"
+    },
+    {
+      "address": "0x1f228F523cD2B9ddc945B163be350fA54C6404dE",
+      "chainId": 4002,
+      "name": "Wrapped ETH",
+      "symbol": "WETH",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xc00e94Cb662C3520282E6f5717214004A7f26888/logo.png"
+    }
+  ]
+}

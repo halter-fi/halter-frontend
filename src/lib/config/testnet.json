@@ -1,0 +1,69 @@
+{
+  "key": "168587773",
+  "chainId": 168587773,
+  "chainName": "Blast-Testnet",
+  "name": "Blast Testnet",
+  "shortName": "BlastTestnet",
+  "network": "BlastTestnet",
+  "unknown": false,
+  "rpc": "https://neat-proportionate-moon.blast-sepolia.quiknode.pro/97a3b0184ee565d04e32ca2ac0e8300a1dfad2c9/",
+  "ws": "wss://neat-proportionate-moon.blast-sepolia.quiknode.pro/97a3b0184ee565d04e32ca2ac0e8300a1dfad2c9/",
+  "loggingRpc": "https://neat-proportionate-moon.blast-sepolia.quiknode.pro/97a3b0184ee565d04e32ca2ac0e8300a1dfad2c9/",
+  "explorer": "https://testnet.blastscan.io/",
+  "subgraph": "https://subgraph.halter.finance/subgraphs/name/halter/halter",
+  "poolsUrlV1": "",
+  "poolsUrlV2": "",
+  "supportsEIP1559": true,
+  "nativeAsset": {
+    "name": "Sepolia ETH",
+    "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+    "symbol": "ETH",
+    "decimals": 18,
+    "deeplinkId": "ethereum",
+    "logoURI": "https://gist.githubusercontent.com/Georgyskr/16c86d73ae13c82574f988177a35c748/raw/a4542c77afb4e38b29ce05b4df786e234593da41/tokenList.json"
+  },
+  "addresses": {
+    "exchangeProxy": "",
+    "merkleRedeem": "",
+    "multicall": "0xcA11bde05977b3631167028862bE2a173976CA11",
+    "authorizer": "0x8E6F7D456226c3b2871fA5A4D713F2867590C6cE",
+    "vault": "0x8D00047cA4F669fB57C8F75A766B8b9C1bD5cE83",
+    "weightedPoolFactory": "0xD2ac85b65b98A00a65b91458Ce2D933cD0AB275d",
+    "stablePoolFactory": "0x82df73ADd5E8D42B40505B9364DAdE65160264FB",
+    "halt": "0x7f63ed5bae2bf8cfa8f79e8bc9524e434a26c174",
+    "weth": "0x4200000000000000000000000000000000000023",
+    "stETH": "",
+    "wstETH": "",
+    "lidoRelayer": "",
+    "balancerHelpers": "0x2891eEda683A730C8694E16569063933543Df2ED",
+
+    "rewardToken": "0x4E9d833A5414877D7bA4E98d05c6249F6E2b0595",
+    "tradeRewards": "0x0A572c1F4711502f8F656049F6f2f9153fEEF058",
+    "stakeToken": "0xDa24d810E94114935c78FfB38F2d768e5c44dF7f",
+    "halterStakingLocked": "0xD9CB35D93bb5A601AD492462084D338B88386242",
+    "halterStakingUnlocked": "0x77972706E37B221052DD55aBFb32B13966865313"
+  },
+  "liquidityRewards": {
+    "0x48390fabc28c6dbaa4afc0e2172b6ad6195f4d2b000200000000000000000000": "0xa719ef2AA44D8c445676a5Da0bc6bD042486A6F5",
+    "0x63b2a8372b40ddd833848c4471b0fa466068eb98000200000000000000000005": "0x212E1c0b49d9664D196172ccFd6E66926Bd530a4"
+  },
+  "strategies": {
+    "0": {
+      "type": "0",
+      "name": "stablePool"
+    },
+    "1": {
+      "type": "1",
+      "name": "weightedPool"
+    },
+    "2": {
+      "type": "2",
+      "name": "weightedPool"
+    }
+  },
+  "rewards": {
+    "apiURL": "https://testnet.api-rewards.halter.finance",
+    "trading": [10000000, 5000000, 2500000, 1250000]
+  },
+  "supportsElementPools": false
+}

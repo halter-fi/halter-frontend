@@ -1,0 +1,21 @@
+{
+  "short_name": "Halter",
+  "name": "Halter",
+  "description": "Swap tokens and manage your assets on Halter Protocol",
+  "providedBy": {
+    "name": "Halter Core",
+    "url": "https://halter.finance"
+  },
+  "icons": [
+    {
+      "src": "favicon.png",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ],
+  "iconPath": "images/logos/logo512.png",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

@@ -1,0 +1,11 @@
+.gradient-blue-l-to-r {
+  @apply bg-gradient-to-r from-blue-900 to-blue-50;
+}
+
+.gradient-purple-diagonal {
+  background: linear-gradient(
+    128.59deg,
+    theme('colors.pink.500') 15.7%,
+    theme('colors.blue.denim') 128.35%
+  );
+}
